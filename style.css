@@ -1,0 +1,54 @@
+/* ----------------------------------------
+      Common Style start From Here
+-------------------------------------------*/
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1160px;
+}
+
+/* ----------------------------------------
+      Hero Section / Frist Section Style start From Here
+-------------------------------------------*/
+.frist-section {
+  background-color: #2d25a0;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section-info {
+  display: flex;
+  justify-content: space-around;
+  margin: 86px 0;
+}
+.hero-section-left h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 80px;
+  margin-bottom: 30px;
+}
+.hero-section-left button {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #e02c6d;
+  border: none;
+  width: 168px;
+  height: 44px;
+}
+.hero-section-left button span {
+    margin-left: 8px;
+}
+.hero-section-right img {
+  width: 556.01px;
+  height: 438px;
+}
+/* ----------------------------------------
+       / Second Section Style start From Here
+-------------------------------------------*/
