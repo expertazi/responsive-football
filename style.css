@@ -6,6 +6,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #fff;
 }
 .container {
   width: 1160px;
@@ -43,12 +44,95 @@ body {
   height: 44px;
 }
 .hero-section-left button span {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 .hero-section-right img {
   width: 556.01px;
   height: 438px;
 }
 /* ----------------------------------------
-       / Second Section Style start From Here
+       Players Section / Second Section Style start From Here
 -------------------------------------------*/
+.player-section {
+  display: flex;
+  justify-content: center;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 70px;
+}
+.player {
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  margin-bottom: 27px;
+  width: 300px;
+  height: 445px;
+}
+.player-info img {
+  width: 300px;
+  height: 256px;
+}
+.player-info h2 {
+  color: #18191f;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  margin: 0;
+  margin-top: 10px;
+}
+.player-info p {
+  color: #6c6c6c;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* ----------------------------------------
+       Footer Section / Last Section Style start From Here
+-------------------------------------------*/
+footer {
+  display: flex;
+  justify-content: center;
+}
+.all-icon {
+
+  width: 170px;
+}
+.icons{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 24px;
+}
+.footer-info {
+  text-align: center;
+  padding: 100px 0;
+  width: 483.87px;
+}
+.footer-logo img {
+  width: 483.87px;
+}
+.footer-icons{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.fab {
+    color: #969BAB;
+  width: 32px;
+  height: 32px;
+  background-color: #CDDEEA;
+  border-radius: 50%;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-credit-text p {
+  margin: 25px 0;
+  font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+}
