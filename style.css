@@ -122,6 +122,48 @@ body {
 }
 
 /* ----------------------------------------
+       our-coaches style from start from Here
+-------------------------------------------*/
+.our-coaches h2{
+  color: #18191F;
+  text-align: center;
+  font-weight: bold;
+font-size: 64px;
+line-height: 80px;
+}
+.our-coaches-section {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+.our-coaches {
+  width: 1160px;
+}
+.coaches {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+.coache {
+  text-align: center;
+  padding: 20px;
+  filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+  background-color: #fff;
+  border-radius: 25px;
+}
+.coache h2{
+  color: #18191F;
+  font-size: 30px;
+  padding: 0;
+margin: 0;
+}
+.coache h3{
+  color: #18191F;
+  padding: 0;
+margin: 0;
+}
+
+/* ----------------------------------------
        Footer Section / Last Section Style start From Here
 -------------------------------------------*/
 footer {
@@ -139,7 +181,7 @@ footer {
 }
 .footer-info {
   text-align: center;
-  padding: 100px 0;
+  padding: 60px 0;
   width: 483.87px;
 }
 .footer-logo img {
@@ -172,7 +214,7 @@ footer {
 -------------------------------------------*/
 
 /* ----------------------------------------
-       Responsive Style From Here
+       Responsive Style For Mobile
 -------------------------------------------*/
 
 @media only screen and (max-width: 668px) {
@@ -245,6 +287,18 @@ footer {
     display: flex;
     justify-content: center;
   }
+/* Third Section End  */
+
+.our-coaches{
+  width: 100%;
+}
+.our-coaches h2{
+  font-size: 38px;
+}
+.coaches{
+  grid-template-columns: repeat(1, 1fr);
+}
+  /* Coaches Section End */
 
   /* Footer Section  */
   .footer-info {
@@ -259,5 +313,68 @@ footer {
   }
   .footer-icons {
     width: 170px;
+  }
+}
+
+/* ----------------------------------------
+       Responsive Style For Tablet
+-------------------------------------------*/
+
+@media only screen and (min-width: 668px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .hero-section-left h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .global-button {
+    font-size: 16px;
+    width: 168px;
+    height: 44px;
+  }
+  .hero-section-left button span i {
+    font-size: 16px;
+  }
+  .hero-section-right img {
+    width: 329px;
+    height: 259.17px;
+  }
+
+  /* Second Section Table Responsive  */
+  .main-players {
+    justify-content: center;
+    display: flex;
+  }
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  .player {
+    margin-bottom: 0;
+  }
+  /* third Section / "All Highlights" Section Style for Tablet */
+  .highlight-info {
+    width: 89%;
+  }
+  .highlight-right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .highlight-right-side img {
+    width: 328px;
+    height: 248px;
+  }
+  .highlight-left-side h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .highlight-left-side p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
   }
 }
