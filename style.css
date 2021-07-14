@@ -11,6 +11,16 @@ body {
 .container {
   width: 1160px;
 }
+.global-button {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #e02c6d;
+  border: none;
+  width: 168px;
+  height: 44px;
+}
 
 /* ----------------------------------------
       Hero Section / Frist Section Style start From Here
@@ -33,16 +43,7 @@ body {
   line-height: 80px;
   margin-bottom: 30px;
 }
-.hero-section-left button {
-  color: #fff;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  background-color: #e02c6d;
-  border: none;
-  width: 168px;
-  height: 44px;
-}
+
 .hero-section-left button span {
   margin-left: 8px;
 }
@@ -90,6 +91,36 @@ body {
 }
 
 /* ----------------------------------------
+       third Section / "All Highlights" Section Style start From Here
+-------------------------------------------*/
+.highlights {
+  display: flex;
+  justify-content: center;
+  margin-top: 105px;
+}
+.highlight-left-side h2 {
+  color: #0a0826;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+}
+.highlight-left-side p {
+  color: #6c6c6c;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 23px;
+}
+.highlight-info {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 50px;
+}
+.highlight-right-side img {
+  width: 567px;
+}
+
+/* ----------------------------------------
        Footer Section / Last Section Style start From Here
 -------------------------------------------*/
 footer {
@@ -97,14 +128,13 @@ footer {
   justify-content: center;
 }
 .all-icon {
-
   width: 170px;
 }
-.icons{
-    display: flex;
-justify-content: space-between;
-align-items: center;
-margin-top: 24px;
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
 }
 .footer-info {
   text-align: center;
@@ -114,16 +144,16 @@ margin-top: 24px;
 .footer-logo img {
   width: 483.87px;
 }
-.footer-icons{
-    display: flex;
-justify-content: center;
-align-items: center;
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .fab {
-    color: #969BAB;
+  color: #969bab;
   width: 32px;
   height: 32px;
-  background-color: #CDDEEA;
+  background-color: #cddeea;
   border-radius: 50%;
   font-size: 17px;
   display: flex;
@@ -133,6 +163,6 @@ align-items: center;
 .footer-credit-text p {
   margin: 25px 0;
   font-weight: normal;
-font-size: 18px;
-line-height: 24px;
+  font-size: 18px;
+  line-height: 24px;
 }
