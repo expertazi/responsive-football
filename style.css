@@ -162,6 +162,9 @@ margin: 0;
   padding: 0;
 margin: 0;
 }
+.coache p{
+  color: #6c6c6c;
+}
 
 /* ----------------------------------------
        Footer Section / Last Section Style start From Here
@@ -298,6 +301,7 @@ footer {
 .coaches{
   grid-template-columns: repeat(1, 1fr);
 }
+  
   /* Coaches Section End */
 
   /* Footer Section  */
